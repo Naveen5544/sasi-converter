@@ -29,5 +29,5 @@ docker:
         password: ${{ secrets.DOCKER_PASSWORD }}
       - name: Build and push Docker image
       run: |
-        docker build -t glarimy/sasi-converter:latest .
-        docker push glarimy/sasi-converter:latest
+        docker build -t Naveen5544/sasi-converter:latest .
+        docker push Naveen5544/sasi-converter:latest
